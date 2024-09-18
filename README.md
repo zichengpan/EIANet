@@ -1,5 +1,14 @@
-# [BMVC 2024] EIANet: A Novel Domain Adaptation Approach to Maximize Class Distinction with Neural Collapse Principles
-Code for "EIANet: A Novel Domain Adaptation Approach to Maximize Class Distinction with Neural Collapse Principles", [[paper]](https://arxiv.org/abs/2407.16189)
+---
+
+<div align="center">    
+ 
+# EIANet: A Novel Domain Adaptation Approach to Maximize Class Distinction with Neural Collapse Principles
+
+[Zicheng Pan](https://zichengpan.github.io/), Xiaohan Yu, and Yongsheng Gao
+
+[![Paper](https://img.shields.io/badge/paper-arxiv.2407.16189-B31B1B.svg)](https://arxiv.org/abs/2407.16189)
+
+</div>
 
 ## Abstract
 Source-free domain adaptation (SFDA) aims to transfer knowledge from a labelled source domain to an unlabelled target domain. A major challenge in SFDA is deriving accurate categorical information for the target domain, especially when sample embeddings from different classes appear similar. This issue is particularly pronounced in fine-grained visual categorization tasks, where inter-class differences are subtle. To overcome this challenge, we introduce a novel ETF-Informed Attention Network (EIANet) to separate class prototypes by utilizing attention and neural collapse principles. More specifically, EIANet employs a simplex Equiangular Tight Frame (ETF) classifier in conjunction with an attention mechanism, facilitating the model to focus on discriminative features and ensuring maximum class prototype separation. This innovative approach effectively enlarges the feature difference between different classes in the latent space by locating salient regions, thereby preventing the misclassification of similar but distinct category samples and providing more accurate categorical information to guide the fine-tuning process on the target domain. Experimental results across four SFDA datasets validate EIANet's state-of-the-art performance.
