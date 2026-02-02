@@ -6,7 +6,7 @@
 
 [Zicheng Pan](https://zichengpan.github.io/), Xiaohan Yu, and Yongsheng Gao
 
-[![Paper](https://img.shields.io/badge/paper-arxiv.2407.16189-B31B1B.svg)](https://arxiv.org/abs/2407.16189)
+[![Paper](https://img.shields.io/badge/paper-BMVC%202024-4B275F.svg)](https://bmvc2024.org/proceedings/317/)
 
 </div>
 
@@ -33,13 +33,13 @@ Please prepare the datasets according to the configuration files in the data fol
 ## Citation
 If you find our code or paper useful, please give us a citation, thanks!
 ```
-@misc{pan2024eianet,
-      title={EIANet: A Novel Domain Adaptation Approach to Maximize Class Distinction with Neural Collapse Principles}, 
-      author={Zicheng Pan and Xiaohan Yu and Yongsheng Gao},
-      year={2024},
-      eprint={2407.16189},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{Pan_2024_BMVC,
+author    = {Zicheng Pan and Xiaohan Yu and Yongsheng Gao},
+title     = {EIANet: A Novel Domain Adaptation Approach to Maximize Class Distinction with Neural Collapse Principles},
+booktitle = {35th British Machine Vision Conference 2024, {BMVC} 2024, Glasgow, UK, November 25-28, 2024},
+publisher = {BMVA},
+year      = {2024},
+url       = {https://papers.bmvc2024.org/0317.pdf}
 }
 ```
 
